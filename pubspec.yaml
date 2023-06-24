@@ -1,0 +1,35 @@
+name: alarm_task
+description: A new Flutter project.
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.0.5 <4.0.0'
+
+dependencies:
+
+  flutter:
+    sdk: flutter
+  flutter_bloc: ^8.1.3
+  sqflite: ^2.2.8+4
+  bloc: ^8.1.2
+  intl: any
+  android_alarm_manager_plus: ^3.0.1
+  awesome_notifications: 0.7.4+1
+
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.1
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
+    - assets/alarm.mp3
+
+
+
+
